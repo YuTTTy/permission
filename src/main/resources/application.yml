@@ -14,9 +14,9 @@ spring:
       #mysql驱动
       driver-class-name: com.mysql.cj.jdbc.Driver
       #基本属性
-      url: jdbc:mysql://127.0.0.1:3306/permission?useUnicode=true&characterEncoding=UTF-8
+      url: jdbc:mysql://127.0.0.1:3306/shiro_test?useUnicode=true&characterEncoding=UTF-8
       username: root
-      password: root
+      password: 123456
       #配置初始化大小/最小/最大
       initial-size: 1
       min-idle: 1
@@ -85,7 +85,7 @@ logging:
 
 # 七牛云
 qiniu:
-  access_key: ACCESS_KEY
-  secret_key: SECRET_KEY
-  bucket_name: BUCKETNAME
-  url: http://xxx/
+  access_key: LO3E6SZoVsX3QBBfVAguwHicmZv12UHoDKIjIddq
+  secret_key: ji0DBuc2dWDDaJm173rwnj6FLnxPW-01G-Ow17Ms
+  bucket_name: yuttty
+  url: http://pvuuduui3.bkt.clouddn.com
